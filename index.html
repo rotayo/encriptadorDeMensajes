@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Web</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <img id = "logo" src="imgs\Logo.png" alt="AluraLogo">
+        <textarea cols="30" rows="6" id="texto" onfocus="this.value=''" placeholder="Ingrese el texto aquí" required>Ingrese el texto aquí</textarea>
+        <div id = "contenedor-botones">
+            <div id = "advertencia">
+                <img id= "advertencia-foto"src="imgs/40fb155f8a8cc879.png" alt="sennal"> 
+                <p id="advertencia-txt">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <button id = "encriptador">Encriptar</button>
+            <button id = "desencriptador">Desencriptar</button>
+        </div>
+        <div id = "rectangulo">
+            <img src="imgs/Muñeco.png" alt="munneco" id = "munneco">
+            <p id = "rectangulo-textos-uno">Ningún mensaje fue encontrado</p>
+            <p id = "rectangulo-textos-dos">Ingresa el texto que deseas encriptar o desencriptar</p>
+        </div> 
+        <script src="logica.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,463 @@
+body{
+    background-color: #F3F5FC;
+    margin: 0;
+}
+
+
+#logo{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 4%;
+
+}
+
+#texto{
+    display: inline-block;
+    margin: 11% 15% 0% 17%;
+
+    font-size: 32px;
+    font-family:'Inter';
+    font-style: normal;
+    color: darkblue;
+    opacity: 1;
+
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+}
+
+/*Rectangulo*/
+
+#rectangulo{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: auto;
+
+    position: absolute;
+    left: 69%;
+    top: 4%;
+
+    border-radius: 25px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+::placeholder{
+    color: darkblue;
+    opacity: 0.5;
+}
+
+#munneco{
+    width: 75%;
+    height: auto;
+    margin-top: 50%;
+    margin-left: 15%;
+}
+
+#rectangulo-textos-uno{
+    margin: 50px 20px 20px 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #343A40;
+}
+
+#rectangulo-textos-dos{
+    margin: 0px 20px 200px 20px;
+
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #495057;
+}
+
+#rectangulo-resultado-texto{
+    display: inline-block;
+    height: 698px;
+    margin: 20px 17% auto 17% ;
+
+    font-size: 24px;
+    line-height: 36px;
+    font-family:'Inter';
+    font-style: normal;
+    color: #495057;
+    opacity: 1;
+
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+}
+
+#rectangulo-boton{
+    color: #0A3871;
+    background-color: #FFFFFF;
+    border: solid #0A3871 1px;
+
+    margin:64px 9% 0 9% ;
+
+    position: relative;
+    bottom: 30px;
+
+    transition: all ease-out 0.2s;
+}
+
+#rectangulo-boton:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #0A3871;
+}
+
+/*Fin de Rectangulo*/
+
+/*Botones*/
+
+#contenedor-botones{
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    display: inline-block;
+}
+
+button{
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: 5px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+#encriptador{
+    color: white;
+    background-color: #0A3871;
+    border: none;
+    transition: background-color ease-out 0.2s;
+}
+
+#encriptador:hover{
+    cursor: pointer;
+    color: #0A3871;
+    background-color: #c0c0c0;
+    border: solid #0A3871 1px;
+}
+
+#desencriptador{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: solid #0A3871 1px;
+    transition: all ease-out 0.2s;
+}
+
+#desencriptador:hover{
+    cursor: pointer;
+    background-color: #052d5f;
+    color: #D8DFE8;
+}
+
+#advertencia-foto{
+    display: inline;
+}
+
+#advertencia-txt{
+    font-family:'Inter';
+    font-style: normal;
+    display: inline;
+}
+
+
+/*Fin de Botones*/
+
+@media screen and (max-width:912px){
+    #logo{
+        position: absolute;
+        margin-left: 4%;
+        margin-top: 10%;
+    
+    }
+
+    #texto{
+        display: inline-block;
+        margin: 35% 15% 0% 10%;
+    
+        font-size: 32px;
+        font-family:'Inter';
+        font-style: normal;
+        color: darkblue;
+        opacity: 1;
+    
+        border: none;
+        background: none;
+        outline: none;
+        resize: none;
+    }
+
+    /*Rectangulo*/
+
+    #rectangulo{
+        background-color: #FFFFFF;
+        width: 89%;
+        height: auto;
+
+        position: relative;
+        left: 0;
+        top: 0;
+
+        margin: 60px 5% 0 5%;
+
+        border-radius: 25px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+
+    #rectangulo-textos-uno{
+        margin: 0;
+        padding: 33px 0 13px 0;
+
+        font-family: 'Inter';
+        font-style: normal;
+
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+
+        color: #343A40;
+    }
+
+    #rectangulo-textos-dos{
+        margin: 0;
+        padding-bottom: 30px;
+
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+
+        color: #495057;
+    }
+
+    #munneco{
+        display: none;
+    }
+
+    #rectangulo-resultado-texto{
+        display: inline-block;
+        width: 90%;
+        height: 180px;
+        margin: 32px 0 32px 32px;
+    
+        font-size: 24px;
+        line-height: 36px;
+        font-family:'Inter';
+        font-style: normal;
+        color: #495057;
+        opacity: 1;
+    
+        border: none;
+        background: none;
+        outline: none;
+        resize: none;
+    }
+    
+    #rectangulo-boton{
+        color: #0A3871;
+        background-color: #FFFFFF;
+        border: solid #0A3871 1px;
+
+        width: 90%;
+    
+        margin-left: 32px;
+        margin-bottom: 32px;
+    
+        position: inherit;
+        bottom: 0;
+    
+        transition: all ease-out 0.2s;
+    }
+
+    /*Fin de Rectangulo*/
+
+    /*Botones*/
+
+    #contenedor-botones{
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: block;
+        margin: 43% 6% 0 6%;
+    }
+
+    button{
+        font-family:'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    
+        margin-top: 15px;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+    }
+    
+
+
+    /*Fin de Botones*/
+
+}
+
+@media screen and (max-width:414px){
+    #logo{
+        margin: 0;
+        position: absolute;
+        top: 2%;
+    
+    }
+
+    #texto{
+        display: inline-block;
+        margin: 50% 15% 0% 10%;
+    
+        font-size: 32px;
+        font-family:'Inter';
+        font-style: normal;
+        color: darkblue;
+        opacity: 1;
+    
+        border: none;
+        background: none;
+        outline: none;
+        resize: none;
+    }
+
+    /*Rectangulo*/
+
+    #rectangulo{
+        background-color: #FFFFFF;
+        width: 500PX;
+        height: auto;
+
+        position: relative;
+        left: 15%;
+        top: 0;
+
+        margin: 60px 0 0 0;
+
+        border-radius: 25px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+
+    #rectangulo-textos-uno{
+        margin: 0;
+        padding: 33px 0 33px 0;
+
+        font-family: 'Inter';
+        font-style: normal;
+
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+
+        color: #343A40;
+    }
+
+    #rectangulo-textos-dos{
+        margin: 0;
+
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+
+        color: #495057;
+    }
+
+    #munneco{
+        display: none;
+    }
+
+    #rectangulo-resultado-texto{
+        display: inline-block;
+        width: 80%;
+        height: 200px;
+        margin: 32px 0px 32px 50px ;
+    
+        font-size: 24px;
+        line-height: 36px;
+        font-family:'Inter';
+        font-style: normal;
+        color: #495057;
+        opacity: 1;
+    
+        border: none;
+        background: none;
+        outline: none;
+        resize: none;
+    }
+    
+    #rectangulo-boton{
+        color: #0A3871;
+        background-color: #FFFFFF;
+        border: solid #0A3871 1px;
+
+        width: 90%;
+        margin-top: 0;
+        margin-left: 32px;
+        margin-bottom: 32px;
+    
+        position: inherit;
+        bottom: 0;
+    
+        transition: all ease-out 0.2s;
+    }
+
+    /*Fin de Rectangulo*/
+
+    /*Botones*/
+
+    #contenedor-botones{
+        position: relative;
+        left: 15%;
+
+        margin: 0;
+        width: 100%;
+        margin-top: 120%;
+
+        display: inline-block;
+    }
+
+    button{
+        margin-top: 20px;
+        width: 500px;
+        height: 100px;
+    }
+
+
+    /*Fin de Botones*/
+}
